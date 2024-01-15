@@ -15,10 +15,9 @@ SwitchCat es un proyecto experimental que permite a los usuarios generar imágen
 
 SwitchCat es una aplicación web que aprovecha Vite y Node.js para proporcionar a los usuarios una experiencia encantadora al generar y descargar imágenes aleatorias de gatos. El proyecto se encuentra en una etapa experimental, con el objetivo de explorar posibilidades creativas con la imaginería de gatos.
 
-## Integración de API (Próximamente)
+## Integración de API 
 
-¡Mantente atento! Planeamos integrar una API para mejorar la variedad y características de las imágenes de gatos generadas por SwitchCat.
-
+[The Cat API()](https://api.thecatapi.com/v1/images/search).
 ## Detalles del Proyecto
 
 - **Nombre:** SwitchCat
