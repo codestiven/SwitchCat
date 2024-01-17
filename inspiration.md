@@ -33,3 +33,12 @@ Este archivo recopila diversas fuentes de inspiración para el proyecto SwitchCa
 ## Cómo Contribuir
 
 ¡Si encuentras alguna fuente de inspiración adicional que te gustaría agregar, no dudes en hacerlo! Simplemente actualiza este archivo con tus ideas y enlaces.
+
+
+https://www.pinterest.com/pin/555068722821655785/
+
+
+Compartir en Redes Sociales:
+Datos Divertidos sobre Gatos - si es posible
+Enlaces a Refugios de Animales
+Información de Créditos
