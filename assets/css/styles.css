@@ -30,9 +30,15 @@
 
 }
 
+
 body {
     background-color: #F7F7F7;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
 }
+
+
 
 /* header */
 
@@ -260,3 +266,120 @@ body {
     box-shadow: 15px 16px 15px -4px rgba(0, 0, 0, 0.17);
 
 }
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #2E2E2E;
+    padding: 50px;
+
+}
+
+footer .logo{
+ 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer .logo h3{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Fredoka-Bold';
+    margin: 0px;
+;
+}
+
+
+footer .logo img{
+    
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+
+
+footer .enlaces{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+footer .enlaces h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Fredoka-Bold';
+}
+
+footer .enlaces ul {
+    padding: 0;
+}
+
+footer .enlaces ul li a {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    text-decoration: none;
+        font-family: 'Fredoka';
+
+}
+
+footer .enlaces ul li a:hover{
+
+    color: #61b1f1;
+
+
+}
+
+
+
+
+
+
+
+footer .info{
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .info h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Fredoka-Bold';
+}
+
+footer .info .redes  {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+
+}
+
+footer .info .redes > * {
+    margin-right: 40px;
+
+}
+
+footer .info .redes img {
+    width: 35px;
+
+    margin-right: 10px;
+}
+
+footer .info .redes img:hover{
+
+    transform: scale(1.1);
+}
+
+footer .contact{
+    padding: 20px 0 0 0;
+}
+
+
