@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: 'Fredoka-light';
+    src: url('../Fonts/Fredoka/Fredoka-Light.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Cattie';
     src: url('../Fonts/Cattie-Regular.ttf') format('truetype');
 }
@@ -422,3 +427,35 @@ footer .contact {
     transform: scale(0.9);
     filter: blur(10px);
 }
+
+
+/* agradecimientos -------------------------------------------- */
+
+.agradecimientos{
+    margin: 70px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agradecimientos h2{
+    font-size: 50px;
+    font-family: 'Fredoka-Bold';
+    text-align: center;
+}
+
+.agradecimientos span{ 
+
+    font-family: 'Fredoka-light';
+    color: #E32D2D;
+}
+
+.agradecimientos span:hover{
+    color: #E32D2D;
+    font-family: 'Fredoka-Bold';
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
