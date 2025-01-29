@@ -23,6 +23,10 @@
     src: url('../Fonts/Cattie-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Largelake';
+    src: url('../Fonts/LargelakePersonalUseOnlyPersonalUseOnly-nRjwP.otf') format('truetype');
+}
 
 
 
@@ -181,7 +185,7 @@ body {
 
 
 
-/* everytime */
+/* everytime  ----------------------------------------------------------------------*/
 
 .everytime {
 
@@ -273,7 +277,66 @@ body {
 
 }
 
-/* footer */
+/* todosEllos  ----------------------------------------------------------------------*/
+
+
+.todosEllos {
+   margin: 100px 0;
+   padding: 0;
+}
+
+.todosEllos .titulo{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+ 
+ 
+}
+
+.todosEllos .titulo h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Fredoka-Bold';
+   
+    color: #3E3E3E;
+}
+
+.todosEllos .titulo h2 span {
+        font-family: 'Largelake';
+        color: #F57382;
+        font-size: 70px;
+}
+
+.todosEllos .row {
+    height: 600px;
+    margin: 90px 0;
+
+    background-color: #375A7D;
+    color: #fff;
+}
+
+.todosEllos .row .img {
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.todosEllos .row .img img{
+    width: 450px;
+    height: 500px;
+    border-radius: 46px;
+    object-fit: cover;
+}
+
+
+
+
+/* footer  ----------------------------------------------------------------------------------------------------*/
 
 footer {
     width: 100%;
@@ -294,7 +357,6 @@ footer .logo h3 {
     color: #fff;
     font-family: 'Fredoka-Bold';
     margin: 0px;
-    ;
 }
 
 
@@ -344,12 +406,6 @@ footer .enlaces ul li a:hover {
 
 }
 
-
-
-
-
-
-
 footer .info {
     color: #fff;
     padding: 20px 0;
@@ -375,7 +431,6 @@ footer .info .redes>* {
 
 footer .info .redes img {
     width: 35px;
-
     margin-right: 10px;
 }
 
@@ -388,6 +443,7 @@ footer .contact {
     padding: 20px 0 0 0;
 }
 
+/* contactos ---------------------------------------------------------------------------------------------*/
 
 .contactos {
     background: rgb(250, 180, 150);
